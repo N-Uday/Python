@@ -1,0 +1,95 @@
+Q1.   General purpose programming language is can be used in variety of applications and not bound 
+      to particular purpose, As PYTHON is used to perform  different programs and not bound to specific
+	  programs. PYTHON is a user-oriented language it is called as high level programming language..
+	  
+Q2.   In PYTHON we don't mention datatype before declaring variable as it is taken care by python at run
+      time, so it is called as dynamically typed program..
+	  
+Q3.   PROS - 1. Friendly Language easy to write and understand compared to other languages.
+             2. Large number of libraries 
+	  	   3. Can be used in many functions like ML,Data field as less number of code lines ...
+	  	   
+	  CONS - 1. As it is a interpreter language,it is slower than compiled languages.
+             2. Runtime errors..
+	  	   
+Q4.   PYTHON can be used in Artificial Intelligence,Machine Learning,Deep learning,BIG-DATA..
+	  
+Q5.   A variable in python is the memory location of an object or a pointer for that object and 
+      it declaration must start with a letter or underscore(_) ...
+	  
+Q6.   we can take input from user in python by using input() function which is inbuilt function 
+      in python.
+	  
+Q7.   When we use input() function the default type it takes is STRING value.
+	  
+Q8.   Converting one datatype to another datatype based on requirement by declaring required
+      datatype before the actual datatype like casting string input to integer by 	
+      int(input()) or  int(str)...
+	  
+Q9.   NO, using one input() function can enter a long string or a integer value, different 
+      inputs at a time can't be taken, we have to use input() for every different input..
+	  
+Q10.  Keywords are reserved words in python,which can't be used to declare variables,functions.
+      some of keywords are TRUE,FALSE,NONE,PASS, ...etc.
+	
+Q11.  NO,keywords have distinct functionlity and it can't be assigned to a variable.
+
+Q12.  Indentation is giving blank spaces before a block of code.As PYTHON  is a interpreter 
+      language, interpreter can identify the indentated spaces and consider those code belong to 
+	  particular block..
+
+Q13.  We can display output using print() function in python..
+	 
+Q14.  Operators are used to perform arithmetical and logical operations.some operators are
+      +,-,*,/,=,<,> .. etc
+	  
+Q15.  Division(/) gives regular result when a number is divided by other number 
+      while in Floor division(//) flooring means reducing point values to lowest number and gives
+	  integer values,
+	  eg.  5/2=2.5    but  5//2 =2 #as it is flooring to lowest integer..
+	  
+Q16.  a="iNeuron"
+      print(a*4)
+	  
+Q17.  number=int(input("Enter a number: "))
+      if(number%2)==0:
+	     print("EVEN")
+	  else:
+	     print("ODD")
+		 
+Q18.  Boolean operators return TRUE/FALSE based on the condition.
+      some opearators are ==,!=,>,<,etc...
+	  
+Q19.  1
+      0
+	  False
+	  1
+	  
+Q20.  Conditional Statements are a block of code which executes only when the condition is satisfied.
+
+Q21.  if,elif,else are conditional statements used to get required output from a wide range of values.
+      these statements are indepedent if one conditional statement fails then it falls for next conditional 
+	  statement like if fails now code goes to elif even it fails finally else code executes.
+	  
+Q22.  age =int(input("Enter age: ")
+      if age>=18:
+	     print("I can vote")
+	  else: 
+	     print("I can't vote")
+		 
+Q23.  even_list=[i for i in numbers if i%2==0]
+      print(even_list)
+	  
+Q24.  li=[]
+      for i in range(0,3):
+          li.append(int(input("Enter number: "))) 
+      print("Maximum number out of three is",max(li))  
+
+Q25.  numbers = [12, 75, 150, 180, 145, 525, 50]
+      for i in numbers:
+          if i==150:
+              continue
+          elif i>500:
+              break
+          elif(i%5)==0:
+              print(i)

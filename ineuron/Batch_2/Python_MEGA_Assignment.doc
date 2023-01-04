@@ -1,0 +1,556 @@
+Q1.   General purpose programming language is can be used in variety of applications and not bound 
+      to particular purpose, As PYTHON is used to perform  different programs and not bound to specific
+	  programs. PYTHON is a user-oriented language it is called as high level programming language..
+	  
+Q2.   In PYTHON we don't mention datatype before declaring variable as it is taken care by python at run
+      time, so it is called as dynamically typed program..
+	  
+Q3.   PROS - 1. Friendly Language easy to write and understand compared to other languages.
+             2. Large number of libraries 
+	  	   3. Can be used in many functions like ML,Data field as less number of code lines ...
+	  	   
+	  CONS - 1. As it is a interpreter language,it is slower than compiled languages.
+             2. Runtime errors..
+	  	   
+Q4.   PYTHON can be used in Artificial Intelligence,Machine Learning,Deep learning,BIG-DATA..
+	  
+Q5.   A variable in python is the memory location of an object or a pointer for that object and 
+      it declaration must start with a letter or underscore(_) ...
+	  
+Q6.   we can take input from user in python by using input() function which is inbuilt function 
+      in python.
+	  
+Q7.   When we use input() function the default type it takes is STRING value.
+	  
+Q8.   Converting one datatype to another datatype based on requirement by declaring required
+      datatype before the actual datatype like casting string input to integer by 	
+      int(input()) or  int(str)...
+	  
+Q9.   NO, using one input() function can enter a long string or a integer value, different 
+      inputs at a time can't be taken, we have to use input() for every different input..
+	  
+Q10.  Keywords are reserved words in python,which can't be used to declare variables,functions.
+      some of keywords are TRUE,FALSE,NONE,PASS, ...etc.
+	
+Q11.  NO,keywords have distinct functionlity and it can't be assigned to a variable.
+
+Q12.  Indentation is giving blank spaces before a block of code.As PYTHON  is a interpreter 
+      language, interpreter can identify the indentated spaces and consider those code belong to 
+	  particular block..
+
+Q13.  We can display output using print() function in python..
+	 
+Q14.  Operators are used to perform arithmetical and logical operations.some operators are
+      +,-,*,/,=,<,> .. etc
+	  
+Q15.  Division(/) gives regular result when a number is divided by other number 
+      while in Floor division(//) flooring means reducing point values to lowest number and gives
+	  integer values,
+	  eg.  5/2=2.5    but  5//2 =2 #as it is flooring to lowest integer..
+	  
+Q16.  a="iNeuron"
+      print(a*4)
+	  
+Q17.  number=int(input("Enter a number: "))
+      if(number%2)==0:
+	     print("EVEN")
+	  else:
+	     print("ODD")
+		 
+Q18.  Boolean operators return TRUE/FALSE based on the condition.
+      some opearators are ==,!=,>,<,etc...
+	  
+Q19.  1
+      0
+	  False
+	  1
+	  
+Q20.  Conditional Statements are a block of code which executes only when the condition is satisfied.
+
+Q21.  if,elif,else are conditional statements used to get required output from a wide range of values.
+      these statements are indepedent if one conditional statement fails then it falls for next conditional 
+	  statement like if fails now code goes to elif even it fails finally else code executes.
+	  
+Q22.  age =int(input("Enter age: ")
+      if age>=18:
+	     print("I can vote")
+	  else: 
+	     print("I can't vote")
+		 
+Q23.  even_list=[i for i in numbers if i%2==0]
+      print(even_list)
+	  
+Q24.  li=[]
+      for i in range(0,3):
+          li.append(int(input("Enter number: "))) 
+      print("Maximum number out of three is",max(li))  
+
+Q25.  numbers = [12, 75, 150, 180, 145, 525, 50]
+      for i in numbers:
+          if i==150:
+              continue
+          elif i>500:
+              break
+          elif(i%5)==0:
+              print(i)
+
+Q26.  String is a sequence of characters declared in single (or) double (or) triple quotes.
+      str="<any_sequence_of_characters>"
+
+Q27.  Same as we do with the lists or tuple or dictionaries.
+      variable[<any_number_less_than_count_of_total_characters>]
+	  
+Q28.  string = "Big Data iNeuron"
+      desired_output =string[-7:]
+	  print(desired_output)
+	  
+Q29.  string = "Big Data iNeuron"
+      desired_output = string[:7:-1]
+      print(desired_output)
+	  
+Q30.  string = "Big Data iNeuron"
+      print(string[::-1])
+	  
+Q31.  Yes, we can delete a string completely by i. using del keyword before variable assigned 
+                                                   with string like a="uday" 
+												                    del a
+										        ii. By directly assigning the address to another
+												    value like  a="uday"
+													            a=4
+													now a points to 4 later garbage collector 
+													removes "uday"
+
+Q32.  Escape sequence is a special character which have multiple purposes like 
+      next line character,tab,backspace represented by \ followed by a character.
+	  
+Q33.  print('iNeuron\'s Big Data Course')
+
+Q34.  list are collection of heterogeneous datatypes also allows duplicate and mutable.
+
+Q35.  Anything separated by commas and placed inside of square braces is lists
+
+Q36.  we can access elements in lists by indexing or by using loops
+
+Q37.  lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+      print(lst[4][2])
+	  
+Q38.  li=[]
+      i=1
+      while i!=0:
+          li.append(int(input("Enter a number: ")))
+          i=int(input("If you want to continue enter 1 else enter 0: "))
+          while i<0 or i>1:
+            i=int(input("Enter only 1 or 0: "))
+      print("Length of the list is:",len(li))
+
+Q39.  lst = ["Welcome", "to", "Data", "course"]
+      lst.insert(2,"BIG")
+      print(lst)
+	  
+Q40.  Tuples are immutable i.e static in nature denoted inside parenthesis
+
+Q41.  Any heterogeneous items separated by commma and placed inside parathesis...
+
+Q42.  No,we can't add directly to a created tuple like LISTs as it is immutable,
+      even though we can add items in tuple by using + operator..
+	  
+Q43.  Yes, we can append two tuples using + Operator 
+      a,b=(1,2),(3,4) 
+	  print(a+b) #gives (1,2,3,4)
+	  
+Q44.  tup=(1,2,3,4,5)
+      print(len(tup))
+	  
+Q45.  sets are unordered collection of data, contains distinct items
+      data in it can't be changed but can be deleted,unindexed, represented in curly braces.
+
+Q46.  set can be created by using set() constructor or by inserting data in curly braces{}.
+
+Q47.  set_a=set()
+      set_a.add("ineuron")
+	  print(set_a) #gives {'ineuron'}
+	  
+Q48.  Yes we can add multiple values in set using add() function.
+
+Q49.  add() accepts only single immutable element and faster but update() accepts multiple iterable values and slower 
+      compared to add()
+      
+	  
+Q50.  clear() method removes all elements in a set.
+
+Q51.  Frozen set is a immutable set of only iterables can be used as keys in dictionary or in another sets
+      we can't add new items too after creating a frozen set.It is hashable
+	  
+Q52.  set is an unordered and unindexed collection of unique elements and mutable,they dont have hash values
+      and can't be used as dictionary keys or as elements of another set.we can add or remove from sets while
+	  Frozenset is also and unordered and unindexed collection of unique elements but immutable and is hashable
+	  we can't add or remove elements from it, it can be used as keys of dictionary or as an elements from
+	  another set,can be represented only by builtin function frozenset().
+	  
+Q53.  UNION() adds all elements in different sets and gives ordered distinct values of combined output.
+      eg.  A={1,3,2}
+	       B={3,4,5}
+		   print(A.union(B))  (or) print( A | B)   #gives {1,2,3,4,5}
+
+Q54.  INTERSECTION() gives common elements from different sets .
+      eg.  A={1,3,2}
+	       B={3,4,5}
+		   print(A.intersection(B))  (or) print( A & B)   #gives {3}
+
+Q55.  Dictionary is a key:value pair in python, key and value are separated by semicolon.
+      KEYS are distinct,while values can be anything even duplicated and changed at any time.
+	  can be accessed by indexing also.declared in curly braces.
+	  
+Q56.  Dictionay contains key:value pair,while every data structure contains only single element.
+	  
+Q57.  Dictionary is declared by using {} curly braces or by using dict() constructor.
+
+Q58.  dict
+
+Q59.  we can add by i. Traditional way by declaring key:value pair inside curly braces separated by comma
+                    ii. By declaring with dict({key:value}) 
+                    iii.After creating update({key:value})
+                    iv. dict_name[key]=value
+
+Q60.  dict_1={'name':'uday','age':22,'class':'ineuron'}
+      for i,j in dict_1.items():        | (O    |        print(dict_1)
+          print(i,j)                    |   R)  |
+		  
+Q61.  dict_1={'name':'uday','age':22,'class':'ineuron','Marks':{'English':96,'Maths':150}}
+      for i,j in dict_1['Marks'].items():     | (O    |      dict_1['Marks']
+	      print(i,j)                          |   R)  |
+		  
+Q62.   get() returns the value for specified key of dictionary
+
+Q63.   items() returns a list containing a tuple for each key value pair of dictionary
+
+Q64.   pop() removes the element with specified key in dictionary
+             removes the top most or high index value from list,set.
+			 
+Q65.   popitem()  removes the last inserted key value pair in dictionary
+
+Q66.   keys() returns a list containing all keys of that dictionary
+
+Q67.   values() returns a list of all values of that dictionary
+
+Q68.   Loops are set of instructions does tasks based on conditions given and runs until
+       it reaches that task.
+	   
+Q69.   2 types of loops are there for loop,while loop & also nested loops
+
+Q70.   Mostly for loop is used when we know how many iterations may happen and 
+       while loop is used when we don't know count of iterations and while loop works 
+	   on boolean condition.
+	   
+Q71.   CONTINUE statement inside loops just skips the current value and goes for next one.
+
+Q72.   BREAK statement inside loop stops the operation and exits from the loop and returns.
+
+Q73.   PASS statement inside loop do nothing,and placed even without writing any code
+       after declaration.
+	   
+Q74.   range() function can generate numbers in required range.Contains start,stop,step 
+       parameters step default is 1 and stop won't be included.
+	   
+Q75.   looping on dictionary can be done by using items(),keys(),values() methods these
+       methods are called with dictionary name for both key,value use items()
+	   and for only keys use keys() and for only values use values().
+	   eg.   for key,value in dict.items():
+	              print(key,value)
+				  
+--------------------------------------------------------------------------------------------
+                                 CODING - PROBLEMS
+								 
+Q76.   def factorial(n):
+           if n==1 or n==0:
+               return 1 
+           elif 1>n:
+               return "Not defined"
+           else: return n*factorial(n-1)
+		   
+	   print(factorial(5))   #o/p: 120
+		
+Q77.   #function for calculation
+       def simple_interest(p,r,t):
+           print( (p*r*t)/100)
+		   
+	   # Code to accept input from user
+	   
+	   #Taking principal amount
+       p=float(input("Enter principal amount: "))
+       
+       #Accepting at which rate period to be calculated 
+       rate=' '
+       while rate.lower()[0]!='m' and rate.lower()[0]!='y' and rate.lower()[0]!='d' :
+           rate=input("Enter rate period in monthly or yearly or days: ")
+       
+       r=float(input("Enter amount given at which rate: "))
+       
+       tmp=' '
+       #Accepting at which time period to be calculated
+       while tmp.lower()[0]!='m' and tmp.lower()[0]!='y' and tmp.lower()[0]!='d':
+           tmp=input("Enter Time period in months or years or days: ")
+           
+       t_p=int(input("Enter time period: "))
+       
+       #Different permutations of rate and time periods
+       if tmp.lower()[0]=='y' and rate.lower()[0]=='m':
+           t=t_p*12
+           simple_interest(p,r,t)
+       elif tmp.lower()[0]=='y' and rate.lower()[0]=='d':
+           t=t_p*365
+           simple_interest(p,r,t)
+       elif tmp.lower()[0]=='m' and rate.lower()[0]=='y' :
+           t=t_p/12
+           simple_interest(p,r,t)
+       elif tmp.lower()[0]=='m' and rate.lower()[0]=='d':
+           t=t_p*30.4167
+       elif tmp.lower()[0]=='d' and rate.lower()[0]=='y':
+           t=t_p/365
+           simple_interest(p,r,t)
+       elif tmp.lower()[0]=='d' and rate.lower()[0]=='m':
+           t=t_p/30.4167
+           simple_interest(p,r,t)
+       else:
+           simple_interest(p,r,t_p)
+
+
+Q78.   #function to calculate compound interest
+       def compound_interest(p,r,t):
+           c=p*pow((1+r/100),t)
+           print(c)
+		   
+	   #Taking principal amount
+       p=float(input("Enter principal amount: "))
+       
+       #Accepting at which rate period to be calculated 
+       rate=' '
+       while rate.lower()[0]!='m' and rate.lower()[0]!='y':
+           rate=input("Enter rate period in monthly or yearly : ")
+       
+       r=float(input("Enter amount given at which rate: "))
+       
+       tmp=' '
+       #Accepting at which time period to be calculated
+       while tmp.lower()[0]!='m' and tmp.lower()[0]!='y':
+           tmp=input("Enter Time period in months or years: ")
+           
+       t_p=int(input("Enter time period: "))
+       
+       #Different permutations of rate and time periods
+       if tmp.lower()[0]=='y' and rate.lower()[0]=='m':
+           t=t_p*12
+           compound_interest(p,r,t)
+       elif tmp.lower()[0]=='m' and rate.lower()[0]=='y' :
+           t=t_p/12
+           compound_interest(p,r,t)
+       else:
+           compound_interest(p,r,t_p)
+		   
+
+Q79.   #Program to print prime or not
+       n =int(input("Enter number: "))
+       count=0
+       for i in range(2,n):
+           if n%i==0:
+               count=count+1
+               break
+       if count==0:
+           print(n,"is a prime number")
+       else: print(n,"is not a prime number")
+       
+	   
+Q80.   #Program to check for Armstrong number
+       n=int(input("Enter a number: "))
+       tmp=n
+       number=tmp
+       cou=0
+       while tmp > 0:
+           cou = cou + 1
+           tmp = tmp // 10
+       
+       count=0
+       while n>0:
+           rem=n%10
+           count=count+pow(rem,cou)
+           n=n//10
+           
+       if number==count:
+           print(number,"is an Armstrong number")
+       else:print(number,"is not an Armstromg number")
+
+
+Q81.   def fibonacci(n):
+           a=0
+           b=1
+           print(a)
+           print(b)
+           for i in range(n-2):
+               c=a+b
+               print(c)
+               a=b
+               b=c
+       n=int(input("Enter number: "))
+       fibonacci(n)
+	   
+Q82.   lst = []
+       n = int(input("Enter the number of elements in list:"))
+       for x in range(0, n):
+           element = input("Enter element: ")
+           list.append(element)
+       print("Current list",lst)
+       tmp=lst[-1]
+       lst[-1]=lst[0]
+       lst[0]=tmp
+       print("interchanged list",lst)
+	   
+Q83.   # Swap function
+       def swapPositions(list, pos1, pos2):
+       	
+       	list[pos1], list[pos2] = list[pos2], list[pos1]
+       	return list
+       
+       
+       List = [23, 65, 19, 90]
+       pos1, pos2 = 1, 3
+       
+       print(swapPositions(List, pos1-1, pos2-1))
+
+Q84.   lst = []
+       n = int(input("Enter the number of elements in list:"))
+       for x in range(0, n):
+           element = int(input("Enter element: "))
+           lst.append(element)
+	   val=int(input("Enter the number of largest values to be displayed: ")
+	   lst.sort(reverse=True)
+	   print("largest number from list is",lst[:val])
+	   
+Q85.   # CUMMULATIVE SUM OF LIST
+       import functools as ft
+	   
+	   lst = []
+       n = int(input("Enter the number of elements in list:"))
+       for x in range(0, n):
+           element = int(input("Enter number: "))
+           list.append(element)
+		   
+	   result=ft.reduce(lambda x,y:x+y,lst)
+	   print(result)                   #gives cummulative sum of the list
+	  
+Q86.   #Palindrome program
+       string = input("ENter a string")
+	   rev=string[::-1]
+	   if string==rev:
+	       print("Given string is a palindrome")
+	   else: print("Given string is not a palindrome")
+	   
+Q87.   string=input("ENter the string")
+       n=int(input("Enter the index of character you want to remove: ")
+	   org_string=""
+	   for i in range(len(string):
+	        if i!=n:
+			    org_string+=string[i]
+				
+		print("String you entered: ",string)
+		print("String after removing ith character: ",org_string)
+		
+Q88.    string=input("Enter main string: ")
+        sub_string=input("Enter sub string to be checked in main string: ")
+		if string.find(sub_string)==-1:
+		     print("Given string is not in main string")
+		else: print("Given String is in main String")
+		
+Q89.    def greater_length(lst,k):
+            res=[]
+            for i in range(len(lst)):
+			     if i in range(len(lst)):
+				     res.append(lst[i]
+			return res
+		
+		n=int(input("Count of values to be given in list: "))
+		lst=[]
+		for i in range(n):
+		    lst.append(input("Enter the value: ")
+		   
+		k=int(input("Enter the length: ")
+		print(greater_length(lst,k))
+		
+Q90.    def distinct_values(dic):
+            if 1>len(dic):
+			     return "No values present"
+             org_set=set()
+			 for i in dic.values():
+			      org_set.add(i)
+				  
+			 return org_set
+			 
+		n=int(input("Items to be given in dictionary"))
+        dic = dict(input("Enter key and value separated by spaces: ").split() for i in range(n))
+		print(distinct_values(dic))
+		
+Q91.    def merge(dic1,dic2):
+             res={**dic1,**dic2}
+			 return res
+		
+        dic1,dic2={},{}		
+		dic3=merge(dic1,dic2)
+		print(dic3)
+		
+Q92.    Input : [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+        dic=dict(Input)
+		print(dic)
+		
+Q93.    Input = [9, 5, 6]
+        input2= list((i,i**3) for i in Input)
+		print(input2)    #Output: [(9, 729), (5, 125), (6, 216)]
+
+Q94.    test_tuple1 = (7, 2)
+        test_tuple2 = (7, 8)
+        lst=[]
+        for i in test_tuple1:
+            for j in test_tuple2:
+                tup=(i,j)
+                tup_2=(j,i)
+                lst.append(tup)
+                lst.append(tup_2)
+        
+        print(lst)    #Output: [(7, 7), (7, 7), (7, 8), (8, 7), (2, 7), (7, 2), (2, 8), (8, 2)]
+		 
+		#If same output in same order is required as in question we have to take 2 nested for loops
+		 which will take O(n^2) time complexity
+		 
+Q95.    Input = [('for', 24), ('Geeks', 8), ('Geeks', 30)] 
+        n=len(Input)
+        for i in range(0,n):
+            for j in range(i+1,n):
+                if Input[i][1]>Input[j][1]:
+                    tmp=Input[j]
+                    Input[j]=Input[i]
+                    Input[i]=tmp
+        print(Input)
+		
+Q96.    for i in range(5):
+            print('*',end='')
+            for i in range(i):
+                print('*',end='')
+            print()
+   
+Q97.    for i in range(5):
+            for j in range(i,5):
+                print(' ',end='')
+            print('*'*(i+1))		
+
+Q98.    for i in range(5):
+            print(" " * (n-i-1) + "*" * (2*i+1))
+			
+Q99.    for i in range(1,6):
+            for j in range(1,i+1):
+                print(j,'',end='')
+            print()
+			
+Q100.   k=65
+        for i in range(5):
+            k+=1
+            for j in range(65,k):
+                print(chr(j),'',end='')
+            print()
